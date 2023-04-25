@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
+import { motion, useViewportScroll, useTransform } from "framer-motion";
 
 const Khalidat = () => {
     return (
