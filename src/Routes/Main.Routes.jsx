@@ -1,7 +1,7 @@
 import React from 'react'
 import { Routes, Route } from "react-router-dom"
 
-import { Home, Khalidat } from "../Views/Index"
+import { Home, Testing } from "../Views/Index"
 
 const MainRoutes = () => {
 
@@ -13,7 +13,7 @@ const MainRoutes = () => {
     return (
         <Routes>
             <Route exact path='/' element={<Home ImageDetails={ImageDetails} />} />
-            <Route path='/:id' element={<Khalidat ImageDetails={ImageDetails} />} />
+            <Route path='/:id' element={<Testing ImageDetails={ImageDetails} />} />
         </Routes>
     )
 }

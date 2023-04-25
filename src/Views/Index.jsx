@@ -1,4 +1,4 @@
 import Home from "./Home";
-import Khalidat from "./Khalidat"
+import Testing from "./Testing"
 
-export { Home, Khalidat }
+export { Home, Testing }

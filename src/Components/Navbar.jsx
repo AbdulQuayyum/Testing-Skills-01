@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
+import logo from "../Images/logo.png"
+
 const Navbar = () => {
     return (
         <header>
@@ -8,10 +10,10 @@ const Navbar = () => {
                 <div className='row space-between'>
                     <div className='logo'>
                         <Link to='/'>
-                            <div className='title'>Skhalidesigns</div>
+                            <img  src={`${logo}`} height="50px" width="auto" alt="..." />
                         </Link>
                     </div>
-                    <div className='title'>Khalidat Sulyman</div>
+                    <div className='title'>Testing Skills</div>
                 </div>
             </div>
         </header>

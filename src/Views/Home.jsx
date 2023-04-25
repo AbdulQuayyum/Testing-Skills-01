@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import ProgressiveImage from "react-progressive-image";
 
-import Khalidat from "../Images/khalidah.jpg"
+import Testing from "../Images/testing.jpg"
 
 const transition = { duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96] };
 
@@ -21,14 +21,14 @@ const Home = ({ ImageDetails, image }) => {
                                 height: ImageDetails.height,
                             }}>
                             <div className='frame'>
-                                <Link to={`/Khalidat`}>
+                                <Link to={`/Testing`}>
                                     <ProgressiveImage
-                                        src={`${Khalidat}`}
-                                        placeholder='Khalidat Sulyman'>
+                                        src={`${Testing}`}
+                                        placeholder='Testing'>
                                         {(src) => (
                                             <motion.img
                                                 src={src}
-                                                alt='Khalidat Sulyman'
+                                                alt='Testing'
                                                 whileHover={{ scale: 1.1 }}
                                                 transition={transition}
                                             />
@@ -41,8 +41,8 @@ const Home = ({ ImageDetails, image }) => {
                             exit={{ opacity: 0 }}
                             transition={transition}
                             className='information'>
-                            {/* <div className='title'>Khalidat Sulyman</div>
-                            <div className='location'>
+                            {/* <div className='title'>Testing</div>
+                            <div className='loTestingion'>
                                 <span>28.538336</span>
                                 <span>-81.379234</span>
                             </div> */}
