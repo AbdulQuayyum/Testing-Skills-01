@@ -1,8 +1,10 @@
+import MainLayout from "./Layout/Main.Layout"
+
 function App() {
 
   return (
     <>
-    <h6>Heyy Khalidah</h6>
+      <MainLayout />
     </>
   )
 }

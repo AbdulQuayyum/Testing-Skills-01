@@ -1,11 +1,16 @@
 import React from "react";
+import { AnimatePresence } from "framer-motion";
 
+import { Navbar } from "../Components/Index"
 import MainRoutes from "../Routes/Main.Routes";
 
 const MainLayout = () => {
     return (
         <>
-            <MainRoutes />
+            <Navbar />
+            <AnimatePresence initial={false} exitBeforeEnter>
+                <MainRoutes />
+            </AnimatePresence>
         </>
     )
 }
